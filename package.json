@@ -1,0 +1,19 @@
+{
+  "name": "chokobot",
+  "version": "1.0.0",
+  "description": "Just another bot used to do awesome stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://obinnabot@chokobot.scm.azurewebsites.net:443/chokobot.git"
+  },
+  "author": "Nerdaah",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "restify": "^5.0.0"
+  }
+}
