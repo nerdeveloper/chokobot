@@ -58,7 +58,7 @@ bot.dialog('survey', [
     },
     function (session, results) {
         session.userData.coding = results.response;
-        builder.Prompts.choice(session, 'What language do you code Node using? ', ['JavaScript', 'CoffeeScript', 'TypeScript']);
+        builder.Prompts.choice(session, 'What language do you code Node using? ', ['JavaScript', 'CoffeeScript', 'TypeScript', 'Java',]);
     },
     function (session, results) {
         session.userData.language = results.response.entity;
