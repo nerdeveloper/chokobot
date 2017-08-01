@@ -10,7 +10,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 // Create chat bot and listen for messages
 var connector = new builder.ChatConnector({
     appId: "e489dd01-a216-47dc-b475-7f9a36ba35a6",
-    appPassword: "2SQUw9tK5f5YFXiQyjt5cNM"
+    appPassword: "MPsKVX3eGaV3feAFYUWaAK5"
 });
 server.post('/api/messages', connector.listen());
 
@@ -65,5 +65,5 @@ bot.dialog('survey', [
         session.endDialog('Got it... ' + session.userData.name +
             ' you\'ve been programming for ' + session.userData.coding +
             ' years and use ' + session.userData.language + '.');
-    }
+    }               
 ]);
